@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sava"
+        android:text="保存与分享"
+        />
+
+    <Button
+        android:id="@+id/qidong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:text="启动" />
+    <Button
+        android:id="@+id/xiangce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/qidong"
+        android:layout_centerHorizontal="true"
+        android:text="相册" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="327dp">
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            >
+        </ImageView>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
